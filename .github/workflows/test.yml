@@ -24,7 +24,7 @@ jobs:
           with:
             node-version: 18  
         - name: install dependencies
-          run: nmp ci
+          run: npm ci
         - name: build project
           run: npm run build
         - name: deploy
